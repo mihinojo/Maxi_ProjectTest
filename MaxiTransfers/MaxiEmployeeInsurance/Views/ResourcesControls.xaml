@@ -1,0 +1,174 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:MaxiEmployeeInsurance">
+    <local:TrueToVisible x:Key="TrueToVisible" />
+    
+    <Style x:Key="ToolTipWithErrorMessageOnErrorStyle" TargetType="TextBox">
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+                <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="RedBackgroundOnErrorStyle" TargetType="TextBox" BasedOn="{StaticResource ToolTipWithErrorMessageOnErrorStyle}">
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+                <Setter Property="Background" Value="Red" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="ToolTipWithErrorMessageDateOnErrorStyle" TargetType="DatePicker">
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+                <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="RedBackgroundDateOnErrorStyle" TargetType="DatePicker" BasedOn="{StaticResource ToolTipWithErrorMessageDateOnErrorStyle}">
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+                <Setter Property="Background" Value="Red" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+
+    <ControlTemplate x:Key="validationTemplate">
+        <Grid>
+            <Label Foreground="Red" HorizontalAlignment="Right" VerticalAlignment="Center">Please insert a integer</Label>
+            <Border BorderThickness="1" BorderBrush="Red">
+                <AdornedElementPlaceholder />
+            </Border>
+        </Grid>
+    </ControlTemplate>
+    <SolidColorBrush x:Key="TextForeground" Color="#383838"/>
+    <SolidColorBrush x:Key="LabelForeground" Color="#19303f" />
+    <SolidColorBrush x:Key="WaterMarkForeground" Color="#474747" />
+    <SolidColorBrush x:Key="BorderBrush" Color="#FF7187A2" />
+    <SolidColorBrush x:Key="DisabledForeground" Color="#383838" />
+    <SolidColorBrush x:Key="BorderBrushSelection" Color="#FF10C96C" />
+
+    <ControlTemplate x:Key="BalloonPopupError">
+        <Grid>
+            <AdornedElementPlaceholder x:Name="placeholder" />
+            <Popup AllowsTransparency="True" Name="popup" HorizontalAlignment="Right" HorizontalOffset="0" VerticalOffset="0" PopupAnimation="Fade" Placement="Bottom"
+                                PlacementTarget="{Binding ElementName=errorBorder}" IsOpen="{Binding ElementName=placeholder, Path=AdornedElement.IsMouseOver, Mode=OneWay}" IsHitTestVisible="False">
+                <StackPanel Orientation="Horizontal">
+                    <Border Background="White" CornerRadius="4" Padding="4" BorderBrush="White" BorderThickness="2">
+                        <TextBlock Name="ErrorText" HorizontalAlignment="Center" Foreground="Red" FontWeight="Bold" Margin="2,0,0,0" Text="{Binding ElementName=placeholder, Path=AdornedElement.(Validation.Errors).CurrentItem.ErrorContent}" />
+                    </Border>
+                </StackPanel>
+            </Popup>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger SourceName="placeholder" Property="IsVisible" Value="False">
+                <Setter TargetName="popup" Property="IsOpen" Value="False" />
+            </Trigger>
+            <Trigger SourceName="ErrorText" Property="Text" Value="">
+                <Setter TargetName="popup" Property="IsOpen" Value="False" />
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+
+    <Style x:Key="TextBoxPlusValidate" TargetType="{x:Type local:TextBoxPlus}" BasedOn="{StaticResource {x:Type local:TextBoxPlus}}">
+        <Setter Property="Validation.ErrorTemplate" Value="{StaticResource ClearErrorTemplate}" />
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+                <Setter Property="ToolTip"
+                        Value="{Binding RelativeSource={x:Static RelativeSource.Self}, 
+                        Path=(Validation.Errors)[0].ErrorContent}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="{x:Type local:TextBoxPlus}" BasedOn="{StaticResource {x:Type TextBox}}">
+        <Style.Resources>
+            <Style TargetType="ToolTip">
+                <Style.Triggers>
+                    <Trigger Property="Content" Value="">
+                        <Setter Property="Visibility" Value="Collapsed" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </Style.Resources>
+        <Setter Property="Foreground" Value="{StaticResource TextForeground}"/>
+        <Setter Property="CharacterCasing" Value="Upper"/>
+        <Setter Property="LabelForeground" Value="{StaticResource LabelForeground}"/>
+        <Setter Property="WaterMarkForeground" Value="{StaticResource WaterMarkForeground}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+        <Setter Property="BorderBrushSelection" Value="{StaticResource BorderBrushSelection}"/>
+        <Setter Property="FontFamily" Value="Calibri"/>
+        <Setter Property="FontSize" Value="33"/>
+
+        <Setter Property="MinHeight" Value="70"/>
+        <Setter Property="Height" Value="85"/>
+        <Setter Property="LabelFontSize" Value="22"/>
+        <Setter Property="WaterMarkFontSize" Value="30"/>
+        <Setter Property="Validation.ErrorTemplate" Value="{StaticResource BalloonPopupError}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:TextBoxPlus}">
+                    <Grid>
+                        <Border x:Name="BorderControl" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}" 
+                                CornerRadius="2" />
+                        <ScrollViewer x:Name="PART_ContentHost" Margin="10,25,0,0" VerticalAlignment="Center" 
+                                      FontSize="{TemplateBinding FontSize}" 
+                                      Foreground="{TemplateBinding Foreground}"/>
+                        <Label Margin="5,0,0,0" x:Name="WaterMarkLabel" Content="{TemplateBinding WaterMark}" 
+                               VerticalAlignment="Top" Visibility="Visible" 
+                               Foreground="{TemplateBinding LabelForeground}" 
+                               FontFamily="Calibri"
+                               FontSize="{TemplateBinding LabelFontSize}"
+                               FontWeight="Bold"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsFocused" Value="False"/>
+                                <Condition Property="IsKeyboardFocused" Value="False"/>
+                                <Condition Property="Text" Value=""/>
+                                <Condition Property="LabelUp" Value="False"/>
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="PART_ContentHost" Property="VerticalAlignment" Value="Center"/>
+                            <Setter TargetName="PART_ContentHost" Property="Margin" Value="8,0,0,5"/>
+                            <Setter TargetName="WaterMarkLabel" Property="VerticalAlignment" Value="Center"/>
+                            <Setter TargetName="WaterMarkLabel" Property="Margin"  Value="5,0,0,0"/>
+                            <Setter TargetName="WaterMarkLabel" Property="Foreground" Value="{Binding WaterMarkForeground, RelativeSource={RelativeSource AncestorType={x:Type local:TextBoxPlus}}}"/>
+                            <Setter TargetName="WaterMarkLabel" Property="FontFamily" Value="Calibri" />
+                            <Setter TargetName="WaterMarkLabel" Property="FontSize" Value="{Binding WaterMarkFontSize, RelativeSource={RelativeSource AncestorType={x:Type local:TextBoxPlus}}}" />
+                            <Setter TargetName="WaterMarkLabel" Property="FontWeight" Value="Normal" />
+                        </MultiTrigger>
+                        <Trigger Property="IsControl" Value="1">
+                            <Setter TargetName="BorderControl" Property="BorderThickness" Value="1,1,0,1"/>
+                            <Setter TargetName="BorderControl" Property="CornerRadius" Value="2,0,0,2"/>
+                        </Trigger>
+                        <Trigger Property="IsControl" Value="2">
+                            <Setter TargetName="BorderControl" Property="BorderThickness" Value="0,1,1,1"/>
+                            <Setter TargetName="BorderControl" Property="CornerRadius" Value="0,2,2,0"/>
+                        </Trigger>
+                        <Trigger Property="IsFocused" Value="True">
+                            <Setter TargetName="BorderControl" Property="BorderBrush" Value="{Binding BorderBrushSelection, RelativeSource={RelativeSource AncestorType={x:Type local:TextBoxPlus}}}"/>
+                            <Setter TargetName="BorderControl" Property="BorderThickness" Value="3"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="WaterMarkLabel" Property="Opacity" Value="0.6"/>
+                            <Setter TargetName="PART_ContentHost" Property="Foreground" Value="{StaticResource DisabledForeground}"/>
+                            <Setter TargetName="PART_ContentHost" Property="Opacity" Value="0.4"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="true">
+                <Setter Property="BorderBrush" Value="Red"/>
+                <Setter Property="BorderThickness" Value="3"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+   
+</ResourceDictionary>

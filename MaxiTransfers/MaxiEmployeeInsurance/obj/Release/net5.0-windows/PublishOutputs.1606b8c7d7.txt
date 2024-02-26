@@ -1,0 +1,11 @@
+C:\Nueva carpeta\MAHS\MaxiTransfers\Publish\MaxiEmployeeInsurance\MaxiEmployeeInsurance.exe
+C:\Nueva carpeta\MAHS\MaxiTransfers\Publish\MaxiEmployeeInsurance\MaxiEmployeeInsurance.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\Publish\MaxiEmployeeInsurance\MaxiEmployeeInsurance.deps.json
+C:\Nueva carpeta\MAHS\MaxiTransfers\Publish\MaxiEmployeeInsurance\MaxiEmployeeInsurance.runtimeconfig.json
+C:\Nueva carpeta\MAHS\MaxiTransfers\Publish\MaxiEmployeeInsurance\MaxiEmployeeInsurance.dll.config
+C:\Nueva carpeta\MAHS\MaxiTransfers\Publish\MaxiEmployeeInsurance\MaxiEmployeeInsurance.pdb
+C:\Nueva carpeta\MAHS\MaxiTransfers\Publish\MaxiEmployeeInsurance\System.Net.Http.Formatting.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\Publish\MaxiEmployeeInsurance\Newtonsoft.Json.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\Publish\MaxiEmployeeInsurance\Newtonsoft.Json.Bson.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\Publish\MaxiEmployeeInsurance\Models.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\Publish\MaxiEmployeeInsurance\Models.pdb

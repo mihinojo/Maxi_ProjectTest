@@ -1,0 +1,74 @@
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\appsettings.Development.json
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\appsettings.json
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.exe
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.deps.json
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.runtimeconfig.json
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.runtimeconfig.dev.json
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.pdb
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Dapper.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Microsoft.OpenApi.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\System.Data.SqlClient.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\runtimes\win-x64\native\sni.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\runtimes\win-x86\native\sni.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Models.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Models.pdb
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.csproj.AssemblyReference.cache
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.AssemblyInfoInputs.cache
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.AssemblyInfo.cs
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.csproj.CoreCompileInputs.cache
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\scopedcss\bundle\MaxiEmployeeAPI.styles.css
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\staticwebassets\MaxiEmployeeAPI.StaticWebAssets.Manifest.cache
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.RazorTargetAssemblyInfo.cache
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.csproj.CopyComplete
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\refint\MaxiEmployeeAPI.dll
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.pdb
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.genruntimeconfig.cache
+C:\Nueva carpeta\MAHS\MaxiTransfers\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\ref\MaxiEmployeeAPI.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\appsettings.Development.json
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\appsettings.json
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.exe
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.deps.json
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.runtimeconfig.json
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.runtimeconfig.dev.json
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\MaxiEmployeeAPI.pdb
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Dapper.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Microsoft.OpenApi.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\System.Data.SqlClient.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Models.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\bin\Release\net5.0\Models.pdb
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.csproj.AssemblyReference.cache
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.AssemblyInfoInputs.cache
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.AssemblyInfo.cs
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.csproj.CoreCompileInputs.cache
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\scopedcss\bundle\MaxiEmployeeAPI.styles.css
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\staticwebassets\MaxiEmployeeAPI.StaticWebAssets.Manifest.cache
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.RazorTargetAssemblyInfo.cache
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.csproj.CopyComplete
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\refint\MaxiEmployeeAPI.dll
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.pdb
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\MaxiEmployeeAPI.genruntimeconfig.cache
+C:\Users\mhinojo\Downloads\MaxiPruebaTecnica-main\MaxiPruebaTecnica-main\MaxiTransfers\MaxiEmployeeAPI\obj\Release\net5.0\ref\MaxiEmployeeAPI.dll
